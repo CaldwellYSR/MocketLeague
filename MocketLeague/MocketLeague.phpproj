@@ -17,6 +17,20 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cars.php" />
+    <Compile Include="includes\footer.php" />
+    <Compile Include="includes\header.php" />
     <Compile Include="index.php" />
+    <Compile Include="controllers\Player.php" />
+    <Compile Include="leagues.php" />
+    <Compile Include="players.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="includes\" />
+    <Folder Include="css\" />
+    <Folder Include="controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\main.css" />
   </ItemGroup>
 </Project>
