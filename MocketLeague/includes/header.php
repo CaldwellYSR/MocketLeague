@@ -18,16 +18,16 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="/mocketleague/MocketLeague/">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/mocketleague/MocketLeague/leagues.php">Leagues</a>
+						<a class="nav-link" href="/leagues.php">Leagues</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/mocketleague/MocketLeague/players.php">Players</a>
+						<a class="nav-link" href="/players.php">Players</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/mocketleague/MocketLeague/cars.php">Cars</a>
+						<a class="nav-link" href="/cars.php">Cars</a>
 					</li>
 				</ul>
 			</div>
