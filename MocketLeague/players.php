@@ -9,15 +9,11 @@
 	 * In index.php have link to /players.php?id=<?php echo $player->id; ?>
 	 **/
 	require("controllers/Player.php");
-	$player = new Player(
-		1,								// id
-		"Sindri",						// name
-		"http://placehold.it/250x250",	// picture
-		"Mocket League",				// league_id
-		12,								// wins
-		3,								// losses
-		"Dominus"						// car
-	);
+    try {
+        $player = Player::getPlayer(1);
+    } catch(Exception $e) {
+        die($e->getMessage());
+    }
 ?>
 <?php require("includes/header.php"); ?>
 <div class="container">
